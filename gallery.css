@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: goblin system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 0);}
+/*Esto es la portada*/
+    #presentation{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;}
+    #description{
+        box-sizing: border-box;
+        border-radius: 5%;
+        background-color: rgba(26, 26, 26, 0.836);
+        color: white;
+        width:60%;
+        height: auto;
+        text-shadow: none;
+        margin-top: 10vh;}
+    #logo{
+        height: 32vh;
+        color: rgb(244, 244, 244);
+        text-shadow: -2px 0px rgb(232, 232, 232);}
+/*++++++++Esto es el fondo de la portada+++++++++*/
+#portada{
+    height: 100vh;
+    background-image: url("fotografias/portada.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    }
+/*++++++++++++++++++++++++++++++++++++*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;}
+.column{
+    flex: 25%;
+    max-width: 25%;
+}
+.column>img{
+    border: 10px solid white;
+    width: 100%;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+.column {
+    flex: 100%;
+    max-width: 60%;}
+}
