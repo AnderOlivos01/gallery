@@ -37,8 +37,9 @@ body{
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
-    background-color: rgba(19, 19, 19, 0.766);
+    background-color: rgba(19, 19, 19, 0.916);
     border-radius: 20px;
+    border: 5px solid white;
     color: rgb(191, 167, 129);
     font-size: large;
 }
@@ -79,7 +80,7 @@ body{
     width:auto;
 }
 
-@media (max-width:1300px) {
+@media (max-width:1200px) {
     .fila{
         margin-bottom: 0;
         flex-wrap: wrap;
