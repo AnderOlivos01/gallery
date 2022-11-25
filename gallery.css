@@ -8,7 +8,6 @@ body{
 
 .portada{
     box-sizing: border-box;
-    background-image: url(/gallery/fotografias/portada.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
